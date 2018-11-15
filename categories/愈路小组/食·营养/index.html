@@ -26,6 +26,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-big-counter.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -37,6 +44,7 @@
 
 
 
+  <meta name="google-site-verification" content="dC367HaR6QUk6saEWAL_18aEOw6dA6zSYrhEAya-mIY">
 
 
 
@@ -49,6 +57,11 @@
 
 
 
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -61,16 +74,16 @@
 <link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css">
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.jpeg?v=6.5.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.jpeg?v=6.5.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.jpeg?v=6.5.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+  <link rel="mask-icon" href="/images/logo_yulu.jpeg?v=6.5.0" color="#222">
 
 
 
@@ -86,9 +99,9 @@
     root: '/',
     scheme: 'Muse',
     version: '6.5.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
-    fastclick: false,
+    sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":false,"onmobile":true},
+    fancybox: true,
+    fastclick: true,
     lazyload: false,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -109,19 +122,19 @@
 
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="愈路">
-<meta property="og:url" content="http://yulu921.github.io/categories/康复/index.html">
-<meta property="og:site_name" content="愈路">
+<meta property="og:title" content="ONTHEWAY">
+<meta property="og:url" content="https://yulu921.github.io/categories/愈路小组/食·营养/index.html">
+<meta property="og:site_name" content="ONTHEWAY">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="愈路">
+<meta name="twitter:title" content="ONTHEWAY">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yulu921.github.io/categories/康复/">
+  <link rel="canonical" href="https://yulu921.github.io/categories/愈路小组/食·营养/">
 
 
 
@@ -131,11 +144,20 @@
   };
 </script>
 
-  <title>分类: 康复 | 愈路</title>
+  <title>分类: 食·营养 | ONTHEWAY</title>
   
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129167624-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129167624-1');
+</script>
 
 
 
@@ -187,14 +209,24 @@
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
     
+      <div class="site-meta-headline">
+        <a>
+          <img class="custom-logo-image" src="/images/logo_yulu.jpeg" alt="ONTHEWAY">
+        </a>
+      </div>
+    
 
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">愈路</span>
+        <span class="site-title">ONTHEWAY</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <h1 class="site-subtitle" itemprop="description">前行不孤独，互助有愈路</h1>
+      
     
   </div>
 
@@ -234,6 +266,23 @@
         
         
           
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-archives">
 
     
@@ -257,6 +306,9 @@
     
 
     
+    
+      
+      
     
       
       
@@ -300,8 +352,8 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>康复<small>分类</small>
-        </h1>
+        <h2>食·营养<small>分类</small>
+        </h2>
       </div>
 
       
@@ -310,19 +362,71 @@
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
     <header class="post-header">
 
-      <h2 class="post-title">
+      <h3 class="post-title">
         
-            <a class="post-title-link" href="/arm_rehabilitation_training/" itemprop="url">
+            <a class="post-title-link" href="/模板标题/" itemprop="url">
               
-                <span itemprop="name">乳腺癌术后恢复手臂功能，简单运动起来</span>
+                <span itemprop="name">模板标题</span>
               
             </a>
         
-      </h2>
+      </h3>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2018-09-25T00:00:00+08:00" content="2018-09-25">
-          09-25
+        <time class="post-time" itemprop="dateCreated" datetime="2018-11-15T13:52:25+08:00" content="2018-11-15">
+          11-15
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
+        
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+            <a class="post-title-link" href="/eating_spicy_food_during_treatment.md/" itemprop="url">
+              
+                <span itemprop="name">化疗期间，能吃辣吗？</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2018-10-16T17:42:00+08:00" content="2018-10-16">
+          10-16
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
+        
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h3 class="post-title">
+        
+            <a class="post-title-link" href="/fruits_to_eat_during_treatments/" itemprop="url">
+              
+                <span itemprop="name">服用抗癌药物期间，哪些水果不要碰</span>
+              
+            </a>
+        
+      </h3>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2018-10-01T19:56:00+08:00" content="2018-10-01">
+          10-01
         </time>
       </div>
 
@@ -359,6 +463,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -368,6 +474,8 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/logo_yulu.jpeg" alt="愈路小组">
             
               <p class="site-author-name" itemprop="name">愈路小组</p>
               <p class="site-description motion-element" itemprop="description"></p>
@@ -380,7 +488,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -390,7 +498,7 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  
+                  <a href="/categories/index.html">
                     
                     
                       
@@ -399,9 +507,19 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">分类</span>
-                  
+                  </a>
                 </div>
               
 
@@ -409,7 +527,7 @@
                 
                 
                 <div class="site-state-item site-state-tags">
-                  
+                  <a href="/tags/index.html">
                     
                     
                       
@@ -424,9 +542,29 @@
                     
                       
                     
-                    <span class="site-state-item-count">6</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">15</span>
                     <span class="site-state-item-name">标签</span>
-                  
+                  </a>
                 </div>
               
             </nav>
@@ -435,17 +573,78 @@
           
 
           
-
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.zhihu.com/people/yu-lu-87-63-55" title="Zhihu &rarr; https://www.zhihu.com/people/yu-lu-87-63-55" rel="noopener" target="_blank"><i class="fa fa-fw fa-globe"></i>Zhihu</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/yulu921" title="GitHub &rarr; https://github.com/yulu921" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:yulu921@126.com" title="E-Mail &rarr; mailto:yulu921@126.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/yulu921" title="Weibo &rarr; https://weibo.com/yulu921" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                </span>
+              
+            </div>
           
 
           
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://mp.weixin.qq.com/s/byh6yga-8EIPY2r8MDTxUQ" title="https://mp.weixin.qq.com/s/byh6yga-8EIPY2r8MDTxUQ" rel="noopener" target="_blank">发刊词</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
             
           
           
-
         </div>
       </section>
 
@@ -475,17 +674,13 @@
 </div>
 
 
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
-
-
+  <div class="footer-custom">Maintained by <a target="_blank" rel="external nofollow" href="https://github.com/wild-flame"><b>wild-flame</b></a></div>
 
 
         
@@ -527,12 +722,16 @@
 
 
 
+  
 
 
 
 
 
 
+
+
+  
 
 
 
@@ -555,12 +754,22 @@
 
   
   
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js"></script>
+  
+
+  
+  
     <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
 
@@ -615,11 +824,11 @@
         notify: false,
         appId: '0xAWipPcU81gFNl93JHsqySb-gzGzoHsz',
         appKey: 'Ypngd6pNbrYyU11glzOFnB0X',
-        placeholder: '欢迎在愈路上留下你的声音。',
+        placeholder: '在愈路上留下你的声音。',
         avatar:'wavatar',
         meta:guest,
         pageSize:'10' || 10,
-        visitor: false
+        visitor: true
     });
   </script>
 
